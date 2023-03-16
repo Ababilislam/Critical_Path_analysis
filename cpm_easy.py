@@ -9,7 +9,7 @@ line = list() #contains a single line
 single_element = list()
 tasks = dict() #contains all the tasks
 number = 0
-cpmdata = open('/home/ab/Documents/cpm_data.txt') #TWO FILES: cpm.txt and cpm1.txt
+cpmdata = open('/home/ab/Documents/git_lab_repo/Critical_Path_analysis/cpm_data.txt') #TWO FILES: cpm.txt and cpm1.txt
 
 for line in cpmdata: #slide the file line by line
     single_element=(line.split(',')) #split a line in subparts
